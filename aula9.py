@@ -3,9 +3,9 @@ import calculos
 #with open("respostas.txt", "w") as arquivo:
 #    arquivo.write("  ")
 
-print(" Olá, qual conta você deseja realizar?\n Para uma conta de soma digite 1 \n",
-      "para uma conta de subtração digite 2 \n para uma conta de divisão digite 3 \n",
-        "para uma conta de multiplicação digite 4 \n para uma conta de potencia digite 5 \n e para uma conta de raiz quadrada digite 6")
+print(" Olá, qual conta você deseja realizar?\n Para uma conta de soma digite 1 \n")
+print("para uma conta de subtração digite 2 \n para uma conta de divisão digite 3 \n")
+print("para uma conta de multiplicação digite 4 \n para uma conta de potencia digite 5 \n e para uma conta de raiz quadrada digite 6")
 
 conta = int(input("Operação esolhida: "))
 valor1 = int(input("Agora escolha um numero: "))
